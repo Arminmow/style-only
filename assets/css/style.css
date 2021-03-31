@@ -1,0 +1,70 @@
+
+/* CONTAINER CSS == */
+
+@import "container.css";
+
+/* ==== BUTTONS CSS === */
+
+@import "buttons.css";
+
+/* === CAROUSEL CSS === */
+
+@import "carousel.css";
+
+/* === SERVICE BOX CSS === */
+
+@import "service box.css";
+
+/* === DIVIDER CSS === */
+
+@import "divider.css";
+
+/* === FEATURE CSS === */
+
+@import "feature.css";
+
+/* === HERO CSS === */
+
+@import "hero.css";
+
+/* === FOOTER CSS === */
+
+@import "footer.css";
+
+/* === RESPONSIVE CSS === */
+
+@import "responsive.css";
+
+
+
+
+
+
+html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    /* Text styles */
+    font-family: 'Lato',sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #212121;
+    perspective: 4px; /* The depth */
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+
+
+
+
+
+
+
+
+/*# sourceMappingURL=style.css.map */

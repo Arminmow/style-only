@@ -1,0 +1,57 @@
+.servicebox {
+    text-align: center;
+}
+.servicebox .service-icon{
+    width: 229px;
+    height: 229px;
+    border-radius: 50%;
+    background: transparent;
+    border: 13px solid #c9d1d8;
+    margin: 0 auto 37px;
+    padding: 35px 0 0;
+    transition: all 0.25s ease 0s;
+}
+.servicebox:hover .service-icon{
+    background: #293f4c;
+}
+.servicebox .service-icon span {
+    border-bottom: 5px solid #317da9;
+    color: #317da9;
+    display: inline-block;
+    font: bold 48px/54px "Arial Black";
+    margin-bottom: 16px;
+    transition: all 0.25s ease 0s;
+}
+.servicebox:hover .service-icon span{
+    color: #fff;
+    border-bottom: 5px solid #fff;
+}
+.servicebox .service-icon h3{
+    color: #293f4c;
+    display: block;
+    font: bold 18px/24px "Arial";
+    margin-top: 0;
+    text-transform: capitalize;
+    transition: all 0.25s ease 0s;
+}
+.servicebox:hover .service-icon h3{
+    color: #fff;
+}
+.servicebox .service-content p{
+    color: #4d6574;
+    font: 17px/24px "Arial";
+    margin-bottom: 29px ;
+}
+.servicebox .read {
+    background: #293f4c;
+    color: #fff;
+    display: inline-block;
+    font: bold 16px/53px "Arial";
+    padding: 0 32px;
+    text-transform: capitalize;
+    transition: all 0.25s ease 0s;
+}
+.servicebox:hover .read {
+    background: #327fab;
+    text-decoration: none;
+}
